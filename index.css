@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Inter-Variable';
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    background-color: hsl(0, 0%, 12%);
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+.card img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.name{
+    color:white;
+    font-size: 25px;
+    font-family: 'Inter-Regular';
+    margin-bottom:-7px;
+    margin-top: 25px;
+}
+.place{
+    color:hsl(75, 94%, 57%);
+    font-size:15px;
+    font-family: 'Inter-Regular';
+}
+.bio{
+    color:white;
+    font-size:14px;
+    font-family: 'Inter-Regular';
+    margin-top: 12px;
+    margin-bottom:27px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 16px;
+}
+.links a{
+    text-decoration:none;
+    color:white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    padding:12px;
+    font-family: 'Inter-Regular';
+    font-size:15px;
+    text-align:center;
+}
+.links a:hover{
+    color:black;
+    background-color: hsl(75, 94%, 57%);
+}
